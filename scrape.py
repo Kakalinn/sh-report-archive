@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import requests, bs4
 
 url = 'http://www.surfheaven.eu/reports/'
@@ -59,7 +59,7 @@ for i in range(len(a)):
         l[-1].append(''.join(k))
 # each element of l looks like [status, date, map, report, author, comment, authorID]
 
-f = open("~/sh-report-archive/current.csv", "w")
+f = open("/home/ec2-user/sh-report-archive/current.csv", "w")
 for e in l: f.write('"%s","%s","%s","%s","%s","%s","%s",%s\n' % (e[0], e[1], e[2], e[3], e[4], e[5], e[6], e[7]))
 f.close()
 

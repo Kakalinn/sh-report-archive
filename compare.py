@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # Read the last scrape and compare it to the current.
 # All lines in last.csv, but not in current.csv are appended to archive.csv
 fcur = open("current.csv", "r")
