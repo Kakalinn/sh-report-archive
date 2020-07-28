@@ -8,7 +8,7 @@ farch = open("archive.csv", "a")
 cur = [ll.rstrip('\n') for ll in fcur]
 last = [ll.rstrip('\n') for ll in flast]
 
-for e in last: 
+for e in last[::-1]:
     if e not in cur and e[1] == 'C': farch.write(e + '\n')
 
 fcur.close()
