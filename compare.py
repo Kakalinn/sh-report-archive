@@ -16,7 +16,7 @@ last = [ll.rstrip('\n') for ll in flast]
 
 for e in last[::-1]:
     if e not in cur and e[1] == 'C':
-        if args.d: print(e)
+        if args.debug: print(e)
         else: farch.write(e + '\n')
 
 fcur.close()
