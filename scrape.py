@@ -60,6 +60,6 @@ for i in range(len(a)):
 # each element of l looks like [status, date, map, report, author, comment, authorID]
 
 f = open("/home/ec2-user/sh-report-archive/current.csv", "w")
-for e in l: f.write('"%s","%s","%s","%s","%s","%s","%s",%s\n' % (e[0], e[1], e[2], e[3], e[4], e[5], e[6], e[7]))
+for e in l: f.write('"%s","%s","%s","%s","%s","%s",%s\n' % (e[1], e[2], e[3], e[4], e[5], e[6], e[7]))
 f.close()
 
