@@ -213,3 +213,5 @@
 "2020-06-26","surf_666","s6 antibhop messed up start of stage","Emma","should be better now","bro",38458798
 "2020-06-26","surf_singletons","stage 3 if you surf on the right you sometimes get stuck","KleineSmok","cant fix without recompile","bro",70973371
 "2020-09-19","surf_akai_final","got 5 cs crashes on connecting to surf_akai_final","kickboxingsun","","",157735650
+"2020-06-27","surf_sandtrap2","run resets randomly after cp2","Ziif","should be fixed","bro",
+"2020-06-28","surf_kitsune_fix","can u add so u can see your !cpr in chat cause some people including me surfs without the hud","leffe","yes soon","Robert",80969784
